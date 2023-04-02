@@ -1,5 +1,5 @@
 header {
-    background-color:wheat;
+    background-color:white;
     padding:20px;
     max-height: 50px;
 }
@@ -10,13 +10,12 @@ header {
     margin-left:50px;
 }
 .logo {
-    max-width: 180px;
-    max-height: 120px; 
-    border: 2px wheat solid;
+    width: 200px;
+    max-height: 50px; 
+    
 }
 
 .button {
-    border: 2px black solid;
     width: fit-content;
     padding: 5px;
     padding-left: 10px;
@@ -47,11 +46,17 @@ body {
 }
 
 .images {
-    border:1px black solid;
+    border:1px purple solid;
     border-radius: 10px;
-    width:auto;
     margin-top: 70px;
     margin-left:20px;
     margin-right:20px;
+    width:500px;
     height:300px;
+}
+
+.banner {
+    object-fit: contain;
+    max-width: 20px;
+    max-height: 20px;
 }
