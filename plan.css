@@ -27,6 +27,7 @@
     display: flex;
     justify-content: center;
     padding:2px;
+    object-fit: cover;
 }
 
 .navbar {
@@ -69,11 +70,11 @@
 }
 
 .button {
-    background-color: #077078;
+    background-color: #2D9BDD;
     margin: 5px;
     border-radius: 30px;
     height:70%;
-    border: solid 2px #077078;
+    border: solid 2px #2D9BDD;
     padding:2px;
     width: 30%;
     min-width: 30%;
@@ -242,7 +243,7 @@ hr {
 }
 
 .blue {
-    color:#077078;
+    color:#088395;
     font-weight: bold;
 }
 
@@ -257,4 +258,32 @@ hr {
     border: 1px blue solid;
     margin-top: 20px;
     text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.demo {
+    width: 40%;
+    height: 300px;
+    border: 1px solid green;
+    border-radius: 20px;
+    overflow: hidden;
+    margin:10px;
+    
+}
+
+.demoimg1 {
+    background-image: url(https://images.theconversation.com/files/478906/original/file-20220812-22-plgtr.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=900.0&fit=crop);
+    object-position: center;
+    background-position-x: center;
+}
+
+.demo h3 {
+    color:black;
+    background-color: white;
+    position:absolute;
+    bottom:0;
+    left:0;
 }
