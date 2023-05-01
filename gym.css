@@ -75,15 +75,16 @@
 }
 
 .button {
-    background-color: #2D9BDD;
+    background-color: rgba(255,0,95, .9);
     margin: 5px;
     border-radius: 30px;
     height:70%;
-    border: solid 2px #2D9BDD;
+    border: solid 2px rgba(255,0,95,255);
     width: 30%;
     min-width: 30%;
     margin-right: 10px;
     color:whitesmoke;
+    font-size: 15px;
 }
 
 .button:hover {
@@ -116,17 +117,18 @@
     color:black;    
     position: absolute;
     top: 120px;
-    left: 40px;
+    left: 35px;
     padding:8px;
     border-radius: 20px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    width:400px;
+    width:500px;
     height: fit-content;
     flex-wrap: wrap;
     overflow: hidden;
+    background-image: linear-gradient(to right, rgba(0,0,0, .4), transparent );
 }
 
 .carouseltext h1 {
@@ -139,11 +141,13 @@
 .carouseltext h2 {
     margin-bottom:1px;
     color:white;
-    padding:5px;
+    padding:15px;
+    background-color: rgba(0,40,109,.5);
+    
 }
 
 .carouseltext p {
-    background-color: rgba(137, 207, 240,.5);
+   /* background-color: rgba(137, 207, 240,.5);*/
     padding:5px;
 } 
 
@@ -278,19 +282,21 @@ hr {
     bottom:0;
     margin-bottom: 10px;
     width: 100%;
-    margin-left: 30px;
+    margin-left: 15px;
     padding: 20px 10px;
 
 }
 
 .blue {
-    color:#029BD8;
+    color:rgba(0,88,206,255);
     font-weight: bold;
 }
 
-.red {
-    color: rgba(229, 0, 103, .9);
+.white {
+    color: white;
     font-weight: bolder;
+    background-color: rgba(0,40,109,.3);
+    padding:5px
 }
 
 .italic 
@@ -581,4 +587,8 @@ hr {
 .pageslinks h3:hover {
     color:#00acee;
     transition:0.5s;
+}
+
+.red {
+    color:rgba(255,0,95,255);
 }
