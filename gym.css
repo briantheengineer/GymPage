@@ -38,7 +38,7 @@
 .navbar {
     height: 70px;
     width: 70%;
-    border: 1px solid brown;
+   /* border: 1px solid brown; */
     margin:2px;
     display: flex;
     justify-content:space-between;
@@ -61,7 +61,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    border:1px black solid;
+    /*border:1px black solid; */
     width: 80%;
     height: 90%;
 
